@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 group :development, :test do
   gem 'listen', '~> 0.5.0'
+  gem 'pry-byebug', '~> 3.6', require: false
   gem 'rspec', '~> 3.8.0'
   gem 'rspec-parameterized', '~> 0.4.0'
   gem 'rubocop', '0.61', require: false
